@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Blog</title>
+</head>
+<body>
+    <!-------HEADER--------->
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="/eduford_img/logo.png" alt="#"></a>
+            <div class="nav-links" id="nav-links">
+                <div class="bar">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                </div>
+                <ul>
+                    <li><a href="Home.htm">HOME</a></li>
+                    <li><a href="about.htm">ABOUT</a></li>
+                    <li><a href="Contact.htm">COURSE</a></li>
+                    <li><a href="blog.htm">BLOG</a></li>
+                    <li><a href="Contact.htm">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav> 
+        <h1>Contact Us</h1> 
+    </section>
+    <!------------------contact us----------->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1B1lAsUpYFg82Je7XN1_cxRPf1UU&ehbc=2E312F" width="640" height="480"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>ZXR Road,Abc building</h5>
+                    <p>Banglore,India</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 8602014832</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>sourabhsingh4800@gmail.com</h5>
+                    <p>Email us for your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col singh">
+            <form action="formhandler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <!------footer-------->
+     <section class="footer">
+        <h4>
+            About Us
+        </h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo saepe 
+            velit impedit ratione dignissimos, vero enim nesciunt provident odit<br> maxime doloremque 
+            expedita dolor non atque? Nemo iste quisquam magnam laudantium.
+        </p>
+        <div class="icon">
+           <i class="fa fa-facebook"></i>
+           <i class="fa fa-twitter"></i>
+           <i class="fa fa-instagram"></i>
+           <i class="fa fa-linkedin"></i>
+        </div>
+        <p>
+            Made With <i class="fa fa-heart-o"></i> by Sourabh Singh
+        </p>
+    </section>
+</body>
+</html>
